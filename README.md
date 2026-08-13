@@ -1,1 +1,1 @@
-# Gimnazia_n6_Schi
+# Gimnazia_n6_Sochi
