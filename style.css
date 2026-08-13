@@ -27,8 +27,12 @@ body {
 }
 
 h1, h2, h3, h4 {
-    font-family: 'Roboto Slab', serif; /* Заголовочный шрифт */
+    font-family: "Roboto", sans-serif;
     color: var(--primary-color);
+}
+
+h1{
+    text-shadow: #000 3px 3px 5px;
 }
 
 /* --- Шапка (Header) --- */
