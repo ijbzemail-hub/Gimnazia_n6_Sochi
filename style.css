@@ -68,6 +68,12 @@ header {
     gap: 10px;
 }
 
+.nav_list{
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+
 nav ul {
     list-style: none;
 }
