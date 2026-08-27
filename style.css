@@ -345,6 +345,10 @@ footer {
     opacity: 0.7;
 }
 
+.Stolovaia{
+    image-orientation: 500px;
+}
+
 /* --- Адаптивность (Mobile & Tablet) --- */
 @media (max-width: 900px) {
     .card {
