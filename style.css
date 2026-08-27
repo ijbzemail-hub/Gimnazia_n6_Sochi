@@ -51,6 +51,10 @@ h1, h2, h3, h4 {
     color: var(--primary-color);
 }
 
+h2{
+    margin-bottom: 15px;
+}
+
 /* --- Шапка (Header) --- */
 header {
     background-color: var(--white);
@@ -292,6 +296,30 @@ main {
     margin-bottom: 22px;
 }
 
+.Rewards{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+    color: var(--primary-color)
+}
+
+.r1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    font-weight: bold;
+}
+
+.r15{
+    font-weight: bold;
+    font-size: 3.5em;
+}
+
 /* Сетка карточек товаров/проектов (ИСПРАВЛЕНО) */
 .all_pr {
     display: grid;
@@ -345,8 +373,25 @@ footer {
     opacity: 0.7;
 }
 
-.Stolovaia{
-    image-orientation: 500px;
+.photo1{
+    width: 500px;
+}
+.information{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: stretch;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.forward{
+    display: flex;
+    flex-direction: row;
+}
+
+.Right{
+    padding-left: 35px;
 }
 
 /* --- Адаптивность (Mobile & Tablet) --- */
