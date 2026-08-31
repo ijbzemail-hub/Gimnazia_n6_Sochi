@@ -373,6 +373,27 @@ footer {
     opacity: 0.7;
 }
 
+.footer123{
+    background-color: var(--text-color);
+}
+
+.footer123 {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+h3 {
+    color: var(--bg-light);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+}
+
+.footer1, .footer2, .footer3{
+    color: #555454d9;
+}
+
 .photo1{
     width: 500px;
 }
