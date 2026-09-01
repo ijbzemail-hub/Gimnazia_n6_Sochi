@@ -340,8 +340,8 @@ main {
 
 /* Footer */
 footer {
-    background-color: var(--primary-color);
-    color: var(--white);
+    background-color: var(--bg-light);
+    color: var(--text-color);
     padding: 70px 0 0 0;
     margin-top: 70px;
 }
@@ -374,14 +374,17 @@ footer {
 }
 
 .footer123{
-    background-color: var(--text-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--primary-color);
 }
 
 .footer123 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
     gap: 30px;
-    padding-bottom: 30px;
+    padding: 30px 400px;
 }
 
 h3 {
@@ -391,7 +394,14 @@ h3 {
 }
 
 .footer1, .footer2, .footer3{
-    color: #555454d9;
+    color: var(--bg-light);
+    padding: 55px;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: var(--text-color);
 }
 
 .photo1{
